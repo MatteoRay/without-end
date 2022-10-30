@@ -51,7 +51,9 @@ function App() {
       <div className="cards__container">
         {products.map((products) => {
           return (
-            <Card
+            <Route
+              index
+              element={<Card />}
               food={products}
               key={products.id}
               onAdd={onAdd}
