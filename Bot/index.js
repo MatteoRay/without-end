@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 
 const token = "5757602714:AAHcx61ejaqt_6xtNXGZSIxhSKDMZZd1XVY";
-const webAppUrl = "https://ya.ru";
+const webAppUrl = "https://stalwart-panda-c183e1.netlify.app";
 const bot = new Telegraf(token, { polling: true });
 const app = express();
 
